@@ -37,5 +37,5 @@ end
 #turn
 def turn(board)
   puts "Please enter 1-9:"
-  num = gets
+  num = gets.chomp
 end
