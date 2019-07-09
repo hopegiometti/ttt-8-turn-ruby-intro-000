@@ -23,11 +23,12 @@ def position_taken?(board, index)
   end
 end
 
-#move
+#input_to_index
 def input_to_index(user_input)
   index = user_input.to_i - 1
 end
 
+#move
 def move(board, index, first_player = "X")
   board[index] = first_player
   return board
